@@ -1,23 +1,17 @@
 /*===== GENERAL =====*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-
+    font-family: Optima, sans-serif;
+    color: #231F20;
 }
 
 header {
     height: auto;
-    padding: 16px;
-    border: 4px solid indigo;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,40 +21,51 @@ header {
 .logo-cuidatge,
 .logo-CRAI {
     height: 140px;
-    border: 4px solid darkslategray;
-    background: skyblue;
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
+.logo-cuidatge a {
+    color: #90292A;
+    text-decoration: none;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.logo-CRAI img{
+    width: 250px;
+}
+
 /*===== INDEX =====*/
 
 .presentacio {
-    height: auto;
     padding: 16px;
-    border: 4px solid indigo;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.carrusel,
-.descripcio {
-  background: peachpuff;
-  border: 4px solid brown;
-  height: auto;
-  width: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .carrusel {
-    flex-shrink: 0;
+    width: 400px;
+    display: flex;
+    justify-content: center;
 }
 
+
 .descripcio {
-    flex: 1 1 auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.descripcio h2 {
+    margin-bottom: 18px;
 }
 
 .cerca {
@@ -128,11 +133,12 @@ footer {
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .logo-URV,
 .informacio {
-    height: 140px;
+    height: auto;
     border: 4px solid darkslategray;
     background: skyblue;
     flex: 1;
