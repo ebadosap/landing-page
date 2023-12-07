@@ -77,6 +77,8 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 8px;
+    margin-bottom: 18px;
+    text-align: justify;
 }
 
 .descripcio h2 {
@@ -84,6 +86,7 @@ main {
 }
 
 .menu-cerca {
+    padding-bottom: 52px;
     border: 1px solid rgb(0, 0, 0);
     
 }
@@ -105,6 +108,7 @@ main {
     height: auto;
     padding: 16px;
     text-align: center;
+    padding: 40px 0 40px 0;
 }
 
 
@@ -117,26 +121,33 @@ main {
 }
 
 #cercador {
-    margin: 32px auto;
+    margin: 12px auto;
     height: auto;
-    padding: 16px;
+    padding: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .menu-secundari {
-    margin-top: 36px;
+    margin: 36px auto;
+}
+
+.menu-secundari li {
     border: 1px solid rgb(0, 0, 0);
 }
 
 .instruccions-cerca {
-    margin-top: 36px;
-    height: 500px;
+    margin-top: 36px auto;
     padding: 16px;
-    border: 4px solid indigo;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.instruccions-cerca h2 {
+    margin-bottom: 18px;
 }
 
 footer {
