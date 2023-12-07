@@ -16,6 +16,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+    background-color: #DBD9D6;
 }
 
 .logo-cuidatge {
@@ -87,7 +88,7 @@ main {
 
 .menu-cerca {
     padding-bottom: 52px;
-    border: 1px solid rgb(0, 0, 0);
+    background-color: #90292A;
     
 }
 
@@ -106,15 +107,15 @@ main {
 .menu-secundari li {
     width: 320px;
     height: auto;
-    padding: 16px;
     text-align: center;
     padding: 40px 0 40px 0;
+    margin: auto;
 }
 
 
 .menu-cerca a,
 .menu-secundari a {
-    color: #231F20;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
@@ -131,10 +132,7 @@ main {
 
 .menu-secundari {
     margin: 36px auto;
-}
-
-.menu-secundari li {
-    border: 1px solid rgb(0, 0, 0);
+    background-color: #A4A9AD;
 }
 
 .instruccions-cerca {
@@ -159,6 +157,7 @@ footer {
     justify-content: space-between;
     gap: 16px;
     flex-wrap: wrap;
+    background-color: #DBD9D6;
 }
 
 .logo-URV,
