@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    border: 4px solid indigo;
     height: auto;
     display: flex;
     align-items: center;
@@ -18,28 +19,41 @@ header {
     gap: 16px;
 }
 
-.logo-cuidatge,
-.logo-CRAI {
-    height: 140px;
+.logo-cuidatge {
+    border: 4px solid indigo;
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 36px;
+}
+
+.logo-CRAI {
+    border: 4px solid indigo;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 
 .logo-cuidatge a {
     color: #90292A;
     text-decoration: none;
-    font-size: 48px;
+    font-size: 52px;
     font-weight: bold;
 }
 
 .logo-CRAI img{
-    width: 250px;
+    width: 60%;
 }
 
 /*===== INDEX =====*/
+
+main {
+    margin: 16px 36px;
+    padding: 16px;
+}
 
 .presentacio {
     padding: 16px;
