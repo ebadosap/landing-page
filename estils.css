@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,12 +12,12 @@ body {
 }
 
 header {
-    height: auto;
+    width: auto;
     padding: 30px 0 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #DBD9D6;
+    background-color: #BDBBBB;
 }
 
 .logo-cuidatge a {
@@ -33,12 +34,43 @@ h1 {
     text-align: center;
 }
 
-/*===== INDEX =====*/
-
 main {
-    margin: 16px 24px;
+    margin: 16px 1%;
     padding: 16px;
 }
+
+footer {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    background-color: #BDBBBB;
+}
+
+.logo-URV,
+.informacio {
+    height: 100px;
+    width: auto;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-URV img {
+    height: auto;
+    width: 300px;
+}
+
+.informacio p {
+    width: 300px;
+    text-align: center;
+}
+
+
+/*===== INDEX =====*/
 
 .presentacio {
     padding: 24px;
@@ -48,13 +80,11 @@ main {
     margin-bottom: 8px;
 }
 
-
 .carrusel {
     width: 400px;
     display: flex;
     justify-content: center;
 }
-
 
 .descripcio {
     width: 700px;
@@ -71,51 +101,6 @@ main {
 
 .descripcio p {
     text-align: justify;
-}
-
-.menu-cerca {
-    padding-bottom: 8px;
-    background-color: #90292b67;
-}
-
-.menu-cerca ul,
-.menu-secundari ul {
-    list-style-type: none;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.menu-cerca ul {
-    background-color: #90292A;
-}
-
-.menu-cerca li,
-.menu-secundari li {
-    width: 320px;
-    height: auto;
-    text-align: center;
-    padding: 20px 0 20px 0;
-    margin: auto;
-}
-
-
-.menu-cerca a,
-.menu-secundari a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 24px;
-}
-
-#cercador {
-    margin: 12px auto;
-    height: auto;
-    padding: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .menu-secundari {
@@ -139,32 +124,68 @@ main {
     text-align: justify;
 }
 
-footer {
-    padding: 16px;
+/*===== INDEX I CERCA =====*/
+.menu-cerca {
+    padding-bottom: 8px;
+    background-color: #90292b67;
+}
+
+.menu-cerca ul,
+.menu-secundari ul {
+    list-style-type: none;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    flex-wrap: wrap;
-    background-color: #DBD9D6;
 }
 
-.logo-URV,
-.informacio {
-    height: 100px;
-    width: auto;
-    flex: 1;
+.menu-cerca ul {
+    background-color: #90292A;
+}
+
+.menu-cerca li,
+.menu-secundari li {
+    width: 320px;
+    height: auto;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: auto;
+}
+
+.menu-cerca a,
+.menu-secundari a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#cercador {
+    margin: 12px auto;
+    height: auto;
+    padding: 8px 100px 8px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 6px;
 }
 
-.logo-URV img {
+#cercador form {
+    margin-left: 100px;
+}
+
+#cercador a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31px;
+    height: 31px;
+}
+
+#cercador button {
+    background-color: #BDBBBB;
+}
+
+ #cercador img {
+    width: 22px;
     height: auto;
-    width: 300px;
-}
-
-.informacio p {
-    width: 300px;
-    text-align: center;
-}
+ }
