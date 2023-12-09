@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Optima, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #231F20;
 }
 
@@ -57,33 +57,38 @@ main {
 
 .descripcio {
     width: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 8px;
     margin-bottom: 18px;
-    text-align: justify;
 }
 
 .descripcio h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
     margin-bottom: 18px;
 }
 
+.descripcio p {
+    text-align: justify;
+}
+
 .menu-cerca {
-    padding-bottom: 52px;
-    background-color: #90292A;
-    
+    padding-bottom: 8px;
+    background-color: #90292b67;
 }
 
 .menu-cerca ul,
 .menu-secundari ul {
     list-style-type: none;
     margin: auto;
-    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+}
+
+.menu-cerca ul {
+    background-color: #90292A;
 }
 
 .menu-cerca li,
@@ -101,7 +106,6 @@ main {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 24px;
-    font-weight: bold;
 }
 
 #cercador {
@@ -121,14 +125,17 @@ main {
 .instruccions-cerca {
     margin-top: 36px auto;
     padding: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
 }
 
 .instruccions-cerca h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
     margin-bottom: 18px;
+}
+
+.instruccions-cerca p {
+    text-align: justify;
 }
 
 footer {
