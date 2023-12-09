@@ -11,42 +11,25 @@ body {
 }
 
 header {
-    height: auto;
+    height: 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 16px;
+    justify-content: center;
     background-color: #DBD9D6;
 }
 
-.logo-cuidatge {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 2%;
-    margin-left: 4%;
-}
-
-.logo-CRAI {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 2%;
-    margin-right: 4%;
-}
-
-
 .logo-cuidatge a {
     color: #90292A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    font-size: 52px;
+    font-size: 60px;
     font-weight: bold;
 }
 
-.logo-CRAI img{
-    width: 75%;
+h1 {
+    text-align: center;
 }
 
 /*===== INDEX =====*/
@@ -149,9 +132,7 @@ main {
 }
 
 footer {
-    height: auto;
     padding: 16px;
-    border: 4px solid indigo;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -162,11 +143,20 @@ footer {
 
 .logo-URV,
 .informacio {
-    height: auto;
-    border: 4px solid darkslategray;
-    background: skyblue;
+    height: 100px;
+    width: auto;
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.logo-URV img {
+    height: auto;
+    width: 300px;
+}
+
+.informacio p {
+    width: 300px;
+    text-align: center;
 }
