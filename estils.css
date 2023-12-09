@@ -182,7 +182,8 @@ footer {
 }
 
 #cercador button {
-    background-color: #BDBBBB;
+    background-color: #90292A;
+    border: 1px solid #90292A;
 }
 
  #cercador img {
