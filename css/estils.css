@@ -6,8 +6,16 @@
     box-sizing: border-box;
 }
 
+@font-face{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+ 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Lato, sans-serif;
     color: #231F20;
 }
 
@@ -35,8 +43,13 @@ h1 {
 }
 
 main {
-    margin: 36px 0.1%;
-    padding: 16px;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 1600px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 footer {
@@ -76,17 +89,17 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 32px;
+    margin: 80px auto;
 }
 
 .carrusel {
-    width: 400px;
+    width: 600px;
     display: flex;
     justify-content: center;
 }
 
 .descripcio {
-    width: 700px;
+    width: 960px;
     padding: 8px;
 }
 
@@ -104,10 +117,11 @@ footer {
 .menu-secundari {
     margin: 36px auto;
     background-color: #A4A9AD;
+    margin: 80px auto;
 }
 
 .instruccions-cerca {
-    margin-top: 36px auto;
+    margin: 80px auto;
     padding: 16px;
 }
 
@@ -126,11 +140,11 @@ footer {
 .menu-cerca {
     padding-bottom: 8px;
     background-color: #90292b67;
+    margin: 80px auto;
 }
 
 .menu-cerca ul,
 .menu-secundari ul {
-    list-style-type: none;
     margin: auto;
     display: flex;
     align-items: center;
@@ -196,7 +210,7 @@ footer {
     align-items: flex-start;
     justify-content: flex-start;
     border: 3px solid #000000;
-    margin-top: 36px;
+    gap: 36px;
  }
 
  .filtres {
@@ -204,14 +218,26 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
  }
 
- .filtres p {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border: 2px solid #000000;
+ .filtres h2 {
+    padding: 15px;
+ }
+
+ .filtres h3 {
+    margin: 20px 0 5px 0;
+    padding: 10px;
+ }
+
+ .filtres h4 {
+    text-align: center;
+
+ }
+
+ .filtres li {
+    margin: 5px 0 5px 0;
+    padding: 10px;
  }
 
  .resultats {
