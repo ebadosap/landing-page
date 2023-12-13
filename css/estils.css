@@ -98,6 +98,7 @@ footer {
 
 .carrusel {
     flex: 1;
+    max-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,9 +106,9 @@ footer {
 
 .descripcio {
     flex: 1;
-    min-width: 400px;
+    min-width: 300px;
     padding: 16px;
-    margin: 0 12px 0 12px;
+    margin: 0 12px 0 0;
 }
 
 .descripcio h2 {
@@ -198,8 +199,8 @@ footer {
 .instruccions-cerca {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
-    border: 1px solid #000000;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .instruccions-cerca h2 {
@@ -212,11 +213,10 @@ footer {
 
 .booleans {
     flex: 1;
-    min-width: 400px;
+    min-width: 250px;
+    max-width: 350px;
     text-align: start;
     margin: 18px;
-    border: 1px solid #000000;
-
 }
 
 .booleans h3,
@@ -226,10 +226,15 @@ footer {
 
 .truncaments {
     flex: 1;
-    min-width: 400px;
+    min-width: 250px;
+    max-width: 350px;
     text-align: start;
     margin: 18px;
-    border: 1px solid #000000;
+}
+
+.booleans li,
+.truncaments li {
+    margin-bottom: 5px;
 }
 
  /*===== CERCA =====*/
