@@ -92,26 +92,27 @@ footer {
 .presentacio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 80px auto;
+    margin: 60px auto;
+    gap: 20px;
 }
 
 .carrusel {
-    width: 600px;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .descripcio {
-    width: 960px;
+    flex: 1;
+    min-width: 400px;
     padding: 8px;
+    margin: 0 12px 0 12px;
 }
 
 .descripcio h2 {
     display: flex;
-    text-align: center;
+    text-align: start;
     justify-content: center;
     margin-bottom: 18px;
 }
@@ -121,20 +122,14 @@ footer {
     padding-bottom: 6px;
 }
 
-.descripcio li {
-    list-style-type: disc;
-    margin-left: 20px;
-    font-size: 18px;
-}
-
 .menu-secundari {
     margin: 36px auto;
     background-color: #A4A9AD;
-    margin: 80px auto;
+    margin: 60px auto;
 }
 
 .instruccions-cerca {
-    margin: 80px auto;
+    margin: 60px auto;
     padding: 16px;
 }
 
@@ -154,7 +149,7 @@ footer {
 .menu-cerca {
     padding-bottom: 8px;
     background-color: #90292b67;
-    margin: 80px auto;
+    margin: 60px auto;
 }
 
 .menu-cerca ul,
