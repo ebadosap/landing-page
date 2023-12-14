@@ -291,8 +291,31 @@ footer {
     border: 2px solid #000000;
  }
 
- .presentacio-resultats p {
+ .presentacio-resultats div {
     border: 1px solid #000000;
+    display: flex;
+ }
+
+ .numero-cites,
+ .tipus-informacio,
+ .ordenat-per {
+    justify-content: space-around;
+ }
+
+ .resultats {
+    display: flex;
+ }
+
+ .resultats h2 {
+    padding: 15px;
+ }
+
+ .resultats div {
+    justify-content: space-around;
+ }
+
+ .presentacio-resultats p {
+    padding: 5px 60px 5px 5px;
  }
 
  .resultats-cerca {
