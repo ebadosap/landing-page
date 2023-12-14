@@ -243,7 +243,6 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    border: 3px solid #000000;
     gap: 36px;
  }
 
@@ -253,6 +252,7 @@ footer {
     align-items: flex-start;
     justify-content: flex-start;
     border: 1px solid #000000;
+    margin-left: 12px;
  }
 
  .filtres h2 {
@@ -277,9 +277,7 @@ footer {
  .resultats {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
  }
 
  .presentacio-resultats {
@@ -287,30 +285,18 @@ footer {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    ;
  }
 
  .presentacio-resultats div {
+    display: flex;
     border: 1px solid #000000;
-    display: flex;
  }
 
- .numero-cites,
- .tipus-informacio,
- .ordenat-per {
-    justify-content: space-around;
- }
-
- .resultats {
-    display: flex;
- }
 
  .resultats h2 {
     padding: 15px;
- }
-
- .resultats div {
-    justify-content: space-around;
  }
 
  .presentacio-resultats p {
@@ -318,17 +304,11 @@ footer {
  }
 
  .resultats-cerca {
-    display: flex;
-    width: 1000px;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border: 2px solid #000000;
+    border-top: 1px solid #000000;
  }
 
  .resultats-cerca input {
     margin-left: -15px;
-
  }
 
  .resultats-cerca li {
@@ -339,12 +319,11 @@ footer {
     margin: 20px;
  }
 
- .primer-resultat-cerca {
+.numero-pagines {
+    margin: 20px;
+    padding: 24px;
     display: flex;
-    width: 1000px;
-    min-width: auto;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border: 2px solid #000000;
- }
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
